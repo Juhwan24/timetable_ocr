@@ -1,0 +1,6 @@
+node_modules/
+tmp/
+result.json
+
+.DS_Store
+.env

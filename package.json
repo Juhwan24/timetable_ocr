@@ -1,0 +1,14 @@
+{
+  "name": "timetable-ocr",
+  "version": "1.0.0",
+  "main": "src/extract.js",
+  "scripts": {
+    "start": "node src/extract.js timetable.png",
+    "extract": "node src/extract.js",
+    "extract:events": "node src/extract-events.js timetable.png"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5",
+    "tesseract.js": "^6.0.1"
+  }
+}
